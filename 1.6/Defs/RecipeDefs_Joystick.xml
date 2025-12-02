@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <RecipeDef ParentName="SurgeryInstallImplantBase">
-        <surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
-        <deathOnFailedSurgeryChance>0.15</deathOnFailedSurgeryChance>
+        <surgerySuccessChanceFactor>0.80</surgerySuccessChanceFactor>
+        <deathOnFailedSurgeryChance>0.50</deathOnFailedSurgeryChance>
         <defName>InstallJoystick</defName>
         <label>install joystick</label>
         <description>Apply directly to the forehead!</description>
