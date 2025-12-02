@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
+        <surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
+        <deathOnFailedSurgeryChance>0.15</deathOnFailedSurgeryChance>
+        <defName>InstallJoystick</defName>
+        <label>install joystick</label>
+        <description>Apply directly to the forehead!</description>
+        <descriptionHyperlinks>
+            <ThingDef>WoodLog</ThingDef>
+            <HediffDef>Joysticked</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing joystick.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>WoodLog</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>WoodLog</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Brain</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Joysticked</addsHediff>
+        <uiIconThing>WoodLog</uiIconThing>
+    </RecipeDef>
+</Defs>

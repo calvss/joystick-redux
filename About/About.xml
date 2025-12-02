@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>calvss.JoystickRedux</packageId>
+	<name>Joystick Redux</name>
+	<author>calvss</author>
+	<modVersion IgnoreIfNoMatchingField="True">1.0</modVersion>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>Joystick, for when you're low on components and high on wood.</description>
+</ModMetaData>
