@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HediffDef ParentName="ImplantHediffBase">
+        <defName>Joysticked</defName>
+        <label>joysticked</label>
+        <labelNoun>a joystick</labelNoun>
+        <description>A stick jammed into the brain. While it improves mood like a joywire, it has much more severe side effects.</description>
+        <descriptionHyperlinks><ThingDef>WoodLog</ThingDef></descriptionHyperlinks>
+        <stages>
+            <li>
+                <socialFightChanceFactor>0.5</socialFightChanceFactor>
+                <partEfficiencyOffset>-0.35</partEfficiencyOffset>
+            </li>
+        </stages>
+        <spawnThingOnRemoved>WoodLog</spawnThingOnRemoved>
+    </HediffDef>
+
+    <ThoughtDef>
+        <defName>Joystick</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>Joysticked</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <stages>
+            <li>
+                <label>joysticked</label>
+                <description>I feel oaky-dokey!</description>
+                <baseMoodEffect>50</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+</Defs>
